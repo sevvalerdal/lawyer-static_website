@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Welcoming AI Search & Real-time Retrieval Bots
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap Location
+Sitemap: https://alperenceng.github.io/avukat-project/sitemap.xml
