@@ -1,6 +1,6 @@
-# GitHub Pages ve HTTPS (Let’s Encrypt) Kurulumu — avmuraterdal.pro
+# GitHub Pages ve HTTPS (Let’s Encrypt) Kurulumu — avmuraterdal.com
 
-Kısa: proje kökünde `CNAME` dosyası eklendi. Aşağıdaki adımları takip ederek sitenizi `avmuraterdal.pro` altında GitHub Pages ile yayınlayıp GitHub/Let’s Encrypt üzerinden HTTPS alabilirsiniz.
+Kısa: proje kökünde `CNAME` dosyası eklendi. Aşağıdaki adımları takip ederek sitenizi `avmuraterdal.com` altında GitHub Pages ile yayınlayıp GitHub/Let’s Encrypt üzerinden HTTPS alabilirsiniz.
 
 - **DNS ayarları (önemli)**:
   - Apex (naked) domain için dört adet A kaydı ekleyin:
@@ -17,7 +17,7 @@ Kısa: proje kökünde `CNAME` dosyası eklendi. Aşağıdaki adımları takip e
   cd /path/to/avukat-project
   git init
   git add .
-  git commit -m "Initial site for avmuraterdal.pro"
+  git commit -m "Initial site for avmuraterdal.com"
   # GitHub'da yeni bir repo oluşturun (ör. avmuraterdal.github.io veya istediğiniz isim)
   git remote add origin git@github.com:YOUR_USERNAME/YOUR_REPO.git
   git branch -M main
@@ -27,7 +27,7 @@ Kısa: proje kökünde `CNAME` dosyası eklendi. Aşağıdaki adımları takip e
 - **GitHub Pages ayarları**:
   - Repository > Settings > Pages kısmına gidin.
   - Source: `main` branch, folder `/(root)` seçin (veya sizin tercih ettiğiniz kaynak).
-  - `Custom domain` alanında `avmuraterdal.pro` görünmelidir (CNAME dosyası eklendiğinden otomatik gelebilir).
+  - `Custom domain` alanında `avmuraterdal.com` görünmelidir (CNAME dosyası eklendiğinden otomatik gelebilir).
   - `Enforce HTTPS` seçeneğini işaretleyin; sertifika GitHub tarafından Let’s Encrypt ile otomatik verilir.
 
 - **Bekleme ve doğrulama**:

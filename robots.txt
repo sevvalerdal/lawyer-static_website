@@ -21,4 +21,4 @@ User-agent: Google-Extended
 Allow: /
 
 # Sitemap Location
-Sitemap: https://alperenceng.github.io/avukat-project/sitemap.xml
+Sitemap: https://avmuraterdal.com/sitemap.xml
